@@ -1,0 +1,29 @@
+@import '../node_modules/rc-pagination/assets/index.css';
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #111;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.nav-item{
+    display: inline-block;
+    color: #764abc;
+    border: 1px solid #764abc;
+    font-size: 16px;
+    margin-left: 20px;
+    transition: 0.2s all ease-in-out;
+}
+
+.nav-item a{
+    padding: 0.3rem 1rem;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: #764abc;
+}
+
+.nav-item:hover{
+    background-color: #ccc;
+}
